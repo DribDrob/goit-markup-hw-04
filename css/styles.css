@@ -121,6 +121,8 @@ img {
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus,
 .footer-contact:hover,
@@ -413,6 +415,7 @@ img {
 }
 .footer > .container {
 	display: flex;
+	align-items: baseline;
 }
 .footer-container:not(:last-child) {
 	margin-right: 70px;
@@ -442,6 +445,7 @@ img {
 	color: var(--third-link-color);
 }
 .join-title {
+	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
@@ -452,6 +456,7 @@ img {
 .footer-social-list {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .footer-social-item {
